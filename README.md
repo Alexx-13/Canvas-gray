@@ -1,2 +1,1 @@
-# alexx-13-RS2019Q3
-Private repository for @alexx-13
+This app can make an API call and load images from there. You can draw on the image(canvas), you can make the image gray. This app is a first prototype part of "Piskel-clone" which is also in this repository. 
