@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0,
+            shrink-to-fit=no">
+        <link rel="stylesheet" href="styles.css">
+        <script src= "./dist/bundle.js" ></script>
+        <title>Codejam Palette</title>
+    </head>
+    <body>
+        <header>
+            <div id="header-title">
+                <div class="header-title__lines">
+                    <hr>
+                    <hr>
+                    <hr>
+                </div>
+                <div class="header-title__title">
+                    <h1>CodeJam - Pallete</h1>
+                </div>
+                <div class="header-title__dots">
+                    <h2>...</h2>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="screen-pos">
+                <div id="left-side">
+                    <div class="left-side__block-a">
+                        <div class="colorButtons">
+                            <h2>Paint Bucket</h2>
+                            <img src="./images-canvas./Vector.svg">
+                            <input type="color" id="bgcolorpicker" class="colorpicker">
+                        </div>
+                        <div class="colorButtons">
+                            <h2>Colour</h2>
+                            <img src="./images-canvas./pipet.svg">
+                            <input type="color" id="colorpicker"  class="colorpicker">
+                        </div>
+                        
+                         <a href="#" id="pencil" class="colorpen"> 
+                            <h2>Pencil</h2>
+                            
+                            <img src="./images-canvas./pencil.png">
+                           
+                        </a>
+                        <hr class="seporater">
+                        <a href="#" id="move">
+                            <img src="./images-canvas./cross-arrow.svg">
+                            <h2>Move</h2>
+                        </a>
+                        <a href="#" id="transform">
+                            <img src="./images-canvas./arrows.svg">
+                            <h2>Transform</h2>
+                        </a>
+                    </div>
+                    <div class="left-side__block-b">
+                        <div class="left-side__block-b__a">
+                            <div id="left-side__block-b__ellipse" class="left-side__block-b__ellipse-a"> 
+                            </div>
+                            <h2>Current colot</h2>
+                        </div>  
+                        <div class="left-side__block-b__b">
+                            <div id="left-side__block-b__ellipse" class="left-side__block-b__ellipse-b">
+                            </div>
+                            <h2>Prev color</h2>
+                        </div>
+                        <hr class="seporater">
+                        <div class="left-side__block-b__c">
+                            <div id="left-side__block-b__ellipse" class="left-side__block-b__ellipse-c">
+                            </div>
+                            <h2>red</h2>
+                        </div>
+                        <div class="left-side__block-b__d">
+                            <div id="left-side__block-b__ellipse" class="left-side__block-b__ellipse-d">
+                            </div>
+                            <h2>blue</h2>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="right-side">
+                    <input type="button" id="load-image-button" value="load">
+                    <input type="text" id="image-keywords-input" placeholder="Minsk">
+                    <td>
+                        <button type="button" id='filterGray' value="Серый фильтр"></button>
+                    </td>
+                    <canvas id="canvas" name="canv-pat" width="512px" height="512px"></canvas>
+                    
+             <script src="./src./script.js">
+            </script>
+         
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Private repository for @alexx-13",
+  "main": "script.js",
+  "dependencies": {
+    "eslint-config-rallycoding": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --mode development --watch",
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "lint": "eslint ./src/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/alexx-13-RS2019Q3.git"
+  },
+  "author": "Kernoha Aliaksei",
+ 
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/alexx-13-RS2019Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/alexx-13-RS2019Q3#readme"
+}
